@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - 360° Feedback Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes scaleIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .animate-fade-up {
+            opacity: 0;
+            animation: fadeInUp 0.6s ease forwards;
+        }
+
+        .animate-scale {
+            opacity: 0;
+            animation: scaleIn 0.6s ease forwards;
+        }
+
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .feature-icon {
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover .feature-icon {
+            transform: scale(1.1);
+            color: #6366f1;
+        }
+
+        .team-member {
+            transition: all 0.3s ease;
+        }
+
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+
+        .team-icon-container {
+            height: 200px;
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+
+        .team-member:hover .team-icon-container {
+            background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
+        }
+
+        .team-icon {
+            font-size: 5rem;
+            color: rgba(255, 255, 255, 0.9);
+            transition: all 0.3s ease;
+        }
+
+        .team-member:hover .team-icon {
+            transform: scale(1.1) rotate(5deg);
+            color: rgba(255, 255, 255, 1);
+        }
+
+        .social-links a {
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            transform: translateY(-3px);
+            color: #6366f1;
+        }
+
+        /* Stagger animations for features */
+        .feature-card:nth-child(1) { animation-delay: 0.1s; }
+        .feature-card:nth-child(2) { animation-delay: 0.2s; }
+        .feature-card:nth-child(3) { animation-delay: 0.3s; }
+        .feature-card:nth-child(4) { animation-delay: 0.4s; }
+
+        /* Stagger animations for team members */
+        .team-member:nth-child(1) { animation-delay: 0.2s; }
+        .team-member:nth-child(2) { animation-delay: 0.3s; }
+        .team-member:nth-child(3) { animation-delay: 0.4s; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-gradient-to-r from-purple-700 to-purple-900 text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-xl font-bold">360° Feedback Portal</div>
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="index.php" class="hover:text-blue-200 transition">Home</a>
+                    <a href="news.php" class="hover:text-blue-200 transition">News Stories</a>
+                    <a href="analysis.php" class="hover:text-blue-200 transition">Analysis</a>
+                    <a href="about.html" class="hover:text-blue-200 transition">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-gradient-to-b from-purple-900 to-purple-700 text-white py-20">
+        <div class="container mx-auto px-4 text-center animate-fade-up">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">About Our Platform</h1>
+            <p class="text-xl md:text-2xl text-purple-100 max-w-3xl mx-auto">
+                Empowering meaningful feedback through innovative technology and thoughtful design.
+            </p>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-center mb-12 animate-fade-up">Key Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Feature 1 -->
+            <div class="bg-white rounded-lg shadow-md p-6 feature-card animate-scale">
+                <div class="text-purple-600 mb-4">
+                    <i class="fas fa-comments text-3xl feature-icon"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Real-time Feedback</h3>
+                <p class="text-gray-600">Instant feedback delivery and response system for quick communication.</p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="bg-white rounded-lg shadow-md p-6 feature-card animate-scale">
+                <div class="text-purple-600 mb-4">
+                    <i class="fas fa-chart-line text-3xl feature-icon"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Analytics</h3>
+                <p class="text-gray-600">Comprehensive analytics to track and measure feedback effectiveness.</p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="bg-white rounded-lg shadow-md p-6 feature-card animate-scale">
+                <div class="text-purple-600 mb-4">
+                    <i class="fas fa-shield-alt text-3xl feature-icon"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Secure Platform</h3>
+                <p class="text-gray-600">Enterprise-grade security to protect your feedback and data.</p>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="bg-white rounded-lg shadow-md p-6 feature-card animate-scale">
+                <div class="text-purple-600 mb-4">
+                    <i class="fas fa-mobile-alt text-3xl feature-icon"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Mobile Friendly</h3>
+                <p class="text-gray-600">Access and provide feedback from any device, anywhere.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="bg-gray-100 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 animate-fade-up">Our Team</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Team Member 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md team-member animate-scale">
+                    <div class="team-icon-container">
+                        <i class="fas fa-code team-icon"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">John Doe</h3>
+                        <p class="text-gray-600 mb-4">Lead Developer</p>
+                        <div class="social-links flex space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-purple-600">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-purple-600">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-purple-600">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md team-member animate-scale">
+                    <div class="team-icon-container">
+                        <i class="fas fa-paint-brush team-icon"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Jane Smith</h3>
+                        <p class="text-gray-600 mb-4">UX Designer</p>
+                        <div class="social-links flex space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-purple-600">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-purple-600">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-purple-600">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md team-member animate-scale">
+                    <div class="team-icon-container">
+                        <i class="fas fa-chart-bar team-icon"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Mike Johnson</h3>
+                        <p class="text-gray-600 mb-4">Product Manager</p>
+                        <div class="social-links flex space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-purple-600">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-purple-600">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-purple-600">
+                                <i class="fab fa-medium"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container mx-auto px-4 py-16">
+        <div class="max-w-4xl mx-auto text-center animate-fade-up">
+            <h2 class="text-3xl font-bold mb-8">Get in Touch</h2>
+            <p class="text-gray-600 mb-8">Have questions about our platform? We'd love to hear from you.</p>
+            <a href="contact.php" class="inline-block bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition transform hover:-translate-y-1">
+                Contact Us
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 sm:px-6">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">About Us</h4>
+                    <p class="text-gray-400">A platform for collecting comprehensive feedback on news stories.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="news.php" class="hover:text-white">Latest News</a></li>
+                        <li><a href="analysis.php" class="hover:text-white">View Analysis</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <p class="text-gray-400">Email: contact@360feedback.com</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 360° Feedback Portal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

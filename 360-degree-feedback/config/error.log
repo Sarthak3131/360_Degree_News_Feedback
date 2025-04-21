@@ -1,0 +1,155 @@
+[11-Apr-2025 21:37:50 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[11-Apr-2025 21:38:05 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[11-Apr-2025 21:38:11 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[11-Apr-2025 21:38:21 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[11-Apr-2025 21:38:34 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[11-Apr-2025 21:38:41 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[11-Apr-2025 21:39:15 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[13-Apr-2025 20:38:05 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[13-Apr-2025 20:39:18 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[13-Apr-2025 20:40:16 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[13-Apr-2025 20:43:01 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[13-Apr-2025 20:45:00 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[13-Apr-2025 20:45:07 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[13-Apr-2025 20:46:29 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[13-Apr-2025 20:52:19 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[13-Apr-2025 20:53:59 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[13-Apr-2025 20:56:23 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[13-Apr-2025 20:56:31 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[13-Apr-2025 21:01:49 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[13-Apr-2025 21:02:01 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[13-Apr-2025 21:02:12 Europe/Berlin] API Error: Array
+(
+    [status] => error
+    [code] => apiKeyInvalid
+    [message] => Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.
+)
+
+[13-Apr-2025 21:12:44 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\INT220\htdocs\360-degree-feedback\news.php:355
+Stack trace:
+#0 {main}
+  thrown in D:\INT220\htdocs\360-degree-feedback\news.php on line 355
+[13-Apr-2025 21:12:53 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\INT220\htdocs\360-degree-feedback\news.php:355
+Stack trace:
+#0 {main}
+  thrown in D:\INT220\htdocs\360-degree-feedback\news.php on line 355
